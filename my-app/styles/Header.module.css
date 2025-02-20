@@ -1,17 +1,18 @@
 .header {
+    width: 100%;
     height: 15vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #da291c;
+    background-color: #ac0e0e;
 }
 
 .title {
     font-size: 5rem;
     color: #ffc72c;
     text-shadow: 
-    1px 1px 0 #000,  
+    1px 1px 0 #ffffff,  
     1px 1px 0 #000,
-    1px 1px 0 #000,
+    1px 1px 0 #ffffff,
     1px 1px 0 #000;
 }

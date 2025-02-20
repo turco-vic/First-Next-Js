@@ -1,0 +1,14 @@
+.card {
+    display: flex;
+    width: 80vh;
+    height: 20vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #bbaa78;
+    border-radius: 15px;
+    gap: 1rem;
+}
+
+.description {
+    font-size: 2rem;
+}

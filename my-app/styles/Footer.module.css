@@ -1,14 +1,23 @@
 .footer {
+    width: 100%;
     height: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ac0e0e;
+    font-size: 2rem;
+}
+
+.subfooter {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #da291c;
     font-size: 2rem;
     color: #ffc72c;
     text-shadow: 
-    1px 1px 0 #000,  
+    1px 1px 0 #ffffff,  
     1px 1px 0 #000,
-    1px 1px 0 #000,
+    1px 1px 0 #ffffff,
     1px 1px 0 #000;
 }
