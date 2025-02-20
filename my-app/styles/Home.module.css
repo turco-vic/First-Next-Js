@@ -1,0 +1,49 @@
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f3eeee;
+}
+
+.sobrebigmac {
+    display: flex;
+    flex-direction: column;
+    background-color: #ddcb95;
+    border-radius: 15px;
+    width: 75%;
+    height: 90%;
+    margin-top: 5%;
+}
+
+.imagebigmac {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60vh;
+    height: 40vh;
+}
+
+.subtitle {
+    font-size: 3rem;
+    color: #ffc72c;
+    text-align: center;
+    text-shadow: 
+    1px 1px 1px #000, 
+    1px 1px 1px #000,
+    1px 1px 1px #000,
+    1px 1px 1px #000; 
+}
+
+.description {
+    font-size: 1.5rem;
+    color: #000000;
+    text-align: center;
+    margin: 0 8% 0 8%;
+}
