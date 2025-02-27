@@ -9,13 +9,25 @@
     gap: 1rem;
     font-size: 1.5rem;
     line-height: 2rem;
+    word-break: break-all;
 }
 
 .card p {
     width: 90%;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1200px) and (min-width: 992px) {
+    .card {
+        width: 70vh;
+        height: 18vh;
+    }
+
+    .description {
+        font-size: 1.8rem;
+    }
+}
+
+@media (max-width: 992px) and (min-width: 768px) {
     .card {
         width: 100%;
         height: auto;
@@ -24,5 +36,17 @@
 
     .description {
         font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .card {
+        width: 100%;
+        height: auto;
+        padding: 0.5rem;
+    }
+
+    .description {
+        font-size: 1.2rem;
     }
 }

@@ -11,38 +11,25 @@
     font-size: 5rem;
     color: #ffc72c;
     text-shadow: 
-    1px 1px 0 #ffffff,  
-    1px 1px 0 #000,
-    1px 1px 0 #ffffff,
-    1px 1px 0 #000;
-}
-
-.header {
-    width: 100%;
-    height: 15vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #ac0e0e;
-}
-
-.title {
-    font-size: 5rem;
-    color: #ffc72c;
-    text-shadow: 
     1px 1px 0 #000000,  
     1px 1px 0 #000000,
     1px 1px 0 #000000,
     1px 1px 0 #000000;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1200px) and (min-width: 992px) {
+    .title {
+        font-size: 4rem;
+    }
+}
+
+@media (max-width: 992px) and (min-width: 768px) {
     .title {
         font-size: 3rem;
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 768px) {
     .title {
         font-size: 2rem;
     }

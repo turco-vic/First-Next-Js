@@ -67,11 +67,32 @@
     height: 40vh;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1200px) and (min-width: 992px) {
+    .block {
+        width: 95%;
+    }
+
+    .aside {
+        width: 25vh;
+        height: 70vh;
+    }
+
+    .subtitle {
+        font-size: 4rem;
+    }
+
+    .imagebigmac {
+        width: 50vh;
+        height: 35vh;
+    }
+}
+
+@media (max-width: 992px) and (min-width: 768px) {
     .block {
         flex-direction: column;
         height: auto;
-        padding: 2rem;
+        padding: 1rem;
+        
     }
 
     .aside {
@@ -94,13 +115,30 @@
     }
 }
 
-@media (max-width: 480px) {
-    .subtitle {
-        font-size: 2rem;
+@media (max-width: 768px) {
+    .block {
+        flex-direction: column;
+        height: auto;
+        padding: 1rem;
+        margin-top: 50rem;
+    }
+
+    .aside {
+        width: 100%;
+        height: auto;
+        margin-top: 1rem;
+    }
+
+    .article {
+        width: 100%;
     }
 
     .imagebigmac {
         width: 100%;
         height: auto;
+    }
+
+    .subtitle {
+        font-size: 2rem;
     }
 }
