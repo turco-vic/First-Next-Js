@@ -21,18 +21,18 @@
     height: 100%;
     background-color: #f36d21;
     border-radius: 15px;
-    gap : 1rem;
-    margin-top: 4vh;
-    margin-bottom: 4vh;
+    gap : 3rem;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
 }
 
 .aside {
     display: flex;
     flex-direction: column;
-    background-color: #f36d21;
+    background-color: #f3eeee;
     border-radius: 15px;
-    width: 30vh;
-    height: 80vh;
+    width: 50vh;
+    height: 70vh;
     align-items: center;
     justify-content: center;
 }
@@ -42,10 +42,10 @@
     font-size: 5rem;
     color: #ffc72c;
     text-shadow: 
-    1px 1px 0 #ffffff,  
-    1px 1px 0 #000,
-    1px 1px 0 #ffffff,
-    1px 1px 0 #000;
+    1px 1px 0 #000000,  
+    1px 1px 0 #000000,
+    1px 1px 0 #000000,
+    1px 1px 0 #000000;
 }
 
 .imagebigmac {
@@ -56,7 +56,7 @@
 .article {
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 3rem;
 }
 
 .imagebigmac {
@@ -65,4 +65,42 @@
     align-items: center;
     width: 60vh;
     height: 40vh;
+}
+
+@media (max-width: 768px) {
+    .block {
+        flex-direction: column;
+        height: auto;
+        padding: 2rem;
+    }
+
+    .aside {
+        width: 100%;
+        height: auto;
+        margin-top: 2rem;
+    }
+
+    .article {
+        width: 100%;
+    }
+
+    .imagebigmac {
+        width: 100%;
+        height: auto;
+    }
+
+    .subtitle {
+        font-size: 3rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .subtitle {
+        font-size: 2rem;
+    }
+
+    .imagebigmac {
+        width: 100%;
+        height: auto;
+    }
 }

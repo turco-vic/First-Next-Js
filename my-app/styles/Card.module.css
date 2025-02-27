@@ -12,3 +12,15 @@
 .description {
     font-size: 2rem;
 }
+
+@media (max-width: 768px) {
+    .card {
+        width: 100%;
+        height: auto;
+        padding: 1rem;
+    }
+
+    .description {
+        font-size: 1.5rem;
+    }
+}
