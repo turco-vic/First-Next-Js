@@ -7,10 +7,12 @@
     background-color: #bbaa78;
     border-radius: 15px;
     gap: 1rem;
+    font-size: 1.5rem;
+    line-height: 2rem;
 }
 
-.description {
-    font-size: 2rem;
+.card p {
+    width: 90%;
 }
 
 @media (max-width: 768px) {
